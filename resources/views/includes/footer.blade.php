@@ -27,17 +27,17 @@
                     <div class="row">
                         <div class="col-sm-6 no-padding-right xs-padding-15px-right">
                             <ul class="footer-list xs-margin-5px-bottom">
-                                <li><a href="/ewings/about">About Us</a></li>
-                                <li><a href="/ewings/departments">Departments</a></li>
-                                <li><a href="/ewings/contact">Contac Us</a></li>
+                                <li><a href="/about">About Us</a></li>
+                                <li><a href="/departments">Departments</a></li>
+                                <li><a href="/contact">Contac Us</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-6 no-padding-right xs-padding-15px-right">
                             <ul class="footer-list">
-                                <li><a href="/ewings/department/aviation">Aviation</a></li>
-                                <li><a href="/ewings/department/engineering">Engineering</a></li>
-                                <li><a href="/ewings/department/medical">Medical</a></li>
-                                <li><a href="/ewings/department/law">Law</a></li>
+                                <li><a href="/department/aviation">Aviation</a></li>
+                                <li><a href="/department/engineering">Engineering</a></li>
+                                <li><a href="/department/medical">Medical</a></li>
+                                <li><a href="/department/law">Law</a></li>
                             </ul>
                         </div>
                     </div>

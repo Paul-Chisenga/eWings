@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-12">
                 <ul>
-                    <li><a href="/ewings">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="javascript:void(0)">{{ $name }}</a></li>
                 </ul>
             </div>

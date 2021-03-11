@@ -35,19 +35,19 @@
 
                             <!-- start menu area -->
                             <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
-                                <li><a href="/ewings">Home</a></li>
-                                <li><a href="/ewings/about">About Us</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/about">About Us</a></li>
                                 <li><a href="#">Our Departments</a>
                                     <ul>
-                                        <li><a href="/ewings/department/aviation">Aviation</a></li>
-                                        <li><a href="/ewings/department/engineering">Enginnering</a></li>
-                                        <li><a href="/ewings/department/medical">Medical</a></li>
-                                        <li><a href="/ewings/department/law">Law</a></li>
+                                        <li><a href="/department/aviation">Aviation</a></li>
+                                        <li><a href="/department/engineering">Enginnering</a></li>
+                                        <li><a href="/department/medical">Medical</a></li>
+                                        <li><a href="/department/law">Law</a></li>
                                     </ul>
                                 </li>
                                 {{-- <li><a href="/events">Events</a></li>
                                 <li><a href="/blogs">Blog</a></li> --}}
-                                <li><a href="/ewings/contact">Contact Us</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
                             </ul>
                             <!-- end menu area -->
 

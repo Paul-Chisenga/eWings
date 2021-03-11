@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('ewings')->group(function () {
 Route::view('/', 'pages.home');
 Route::view('/about', 'pages.about');
 Route::prefix('/department')->group(function () {
@@ -26,7 +25,4 @@ Route::view('/law', 'pages.law');
 Route::view('/events', 'pages.events');
 Route::view('/departments', 'pages.departments');
 Route::view('/contact', 'pages.contact');
-
-});
-
 

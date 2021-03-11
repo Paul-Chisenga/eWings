@@ -11,7 +11,7 @@
                         <h1 class="text-white">Your aviation training &</h1>
                         <h1 class="text-white">consulting partner</h1>
                         <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">Many colleges and universities have designated mottos that represent the culture of that institution identify themselves in a few words.</p>
-                        <a href="/ewings/about" class="butn theme">
+                        <a href="/about" class="butn theme">
                             <span class="alt-font">Learn More</span><i class="fas fa-long-arrow-alt-right font-size16 sm-font-size14 margin-10px-left"></i>
                         </a>
                     </div>
@@ -22,7 +22,7 @@
                     <div class="display-table-cell vertical-align-middle">
                         <h1 class="text-white">Education For Better</h1>
                         <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">Many colleges and universities have designated mottos that represent the culture of that institution identify themselves in a few words.</p>
-                        <a href="/ewings/about" class="butn medium theme">
+                        <a href="/about" class="butn medium theme">
                             <span class="alt-font">Learn More</span><i class="fas fa-long-arrow-alt-right font-size16 sm-font-size14 margin-10px-left"></i>
                         </a>
                     </div>
@@ -33,7 +33,7 @@
                     <div class="display-table-cell vertical-align-middle">
                         <h1 class="text-white">Achieving Knowledge</h1>
                         <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">Many colleges and universities have designated mottos that represent the culture of that institution identify themselves in a few words.</p>
-                        <a href="/ewings/about" class="butn medium theme">
+                        <a href="/about" class="butn medium theme">
                             <span class="alt-font">Learn More</span><i class="fas fa-long-arrow-alt-right font-size16 sm-font-size14 margin-10px-left"></i>
                         </a>
                     </div>
@@ -52,25 +52,25 @@
                 <div class="owl-carousel owl-theme">
 
                     <div class="step bg-blue">
-                        <a href="/ewings/department/aviation" class="text-center">
+                        <a href="/department/aviation" class="text-center">
                             <i class="ti-eraser"></i>
                             <h4 class="step-title">Aviation</h4>
                         </a>
                     </div>
                     <div class="step bg-sky">
-                        <a href="/ewings/department/engineering" class="text-center">
+                        <a href="/department/engineering" class="text-center">
                             <i class="ti-cloud-down"></i>
                             <h4 class="step-title">Engineering</h4>
                         </a>
                     </div>
                     <div class="step bg-green">
-                        <a href="/ewings/department/medical" class="text-center">
+                        <a href="/department/medical" class="text-center">
                             <i class="ti-check-box"></i>
                             <h4 class="step-title">Medical</h4>
                         </a>
                     </div>
                     <div class="step bg-pink">
-                        <a href="/ewings/department/law" class="text-center">
+                        <a href="/department/law" class="text-center">
                             <i class="ti-mouse"></i>
                             <h4 class="step-title">Law</h4>
                         </a>
@@ -93,7 +93,7 @@
                         <li>Building our community</li>
                         <li>Book, library and store</li>
                     </ul>
-                    <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" href="/ewings/about">Read More <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
+                    <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" href="/about">Read More <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
                 </div>
             </div>
 

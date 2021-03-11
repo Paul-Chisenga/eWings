@@ -66,10 +66,10 @@
                         </div>
                         <div class="single-post margin-25px-bottom">
                             <div class="recent_img">
-                                <a href="/ewings/department/engineering" title=""><img src="{{asset('img/events/events-01.jpg')}}" alt="" /></a>
+                                <a href="/department/engineering" title=""><img src="{{asset('img/events/events-01.jpg')}}" alt="" /></a>
                             </div>
                             <div class="post_title">
-                                <a href="/ewings/department/engineering">Enginnering</a>
+                                <a href="/department/engineering">Enginnering</a>
                                 <p class="margin-5px-top font-size13 no-margin-bottom">
                                     <i class="fas fa-calendar-alt text-hightlight-color padding-10px-right"></i>5 Years
                                 </p>
@@ -77,10 +77,10 @@
                         </div>
                         <div class="single-post margin-25px-bottom">
                             <div class="recent_img">
-                                <a href="/ewings/department/medical"><img src="{{asset('img/events/events-02.jpg')}}" alt="" /></a>
+                                <a href="/department/medical"><img src="{{asset('img/events/events-02.jpg')}}" alt="" /></a>
                             </div>
                             <div class="post_title">
-                                <a href="/ewings/department/medical">Medical</a>
+                                <a href="/department/medical">Medical</a>
                                 <p class="margin-5px-top font-size13 no-margin-bottom">
                                     <i class="fas fa-calendar-alt text-hightlight-color padding-10px-right"></i>7 Years
                                 </p>
@@ -88,10 +88,10 @@
                         </div>
                         <div class="single-post margin-25px-bottom">
                             <div class="recent_img">
-                                <a href="/ewings/department/law"><img src="{{asset('img/events/events-03.jpg')}}" alt="" /></a>
+                                <a href="/department/law"><img src="{{asset('img/events/events-03.jpg')}}" alt="" /></a>
                             </div>
                             <div class="post_title">
-                                <a href="/ewings/department/law">Law</a>
+                                <a href="/department/law">Law</a>
                                 <p class="margin-5px-top font-size13 no-margin-bottom">
                                     <i class="fas fa-calendar-alt text-hightlight-color padding-10px-right"></i>5 Years
                                 </p>

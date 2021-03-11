@@ -14,7 +14,7 @@
                         <li>Building our community</li>
                         <li>Book, library and store</li>
                     </ul>
-                    <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" href="/ewings/about">Read More <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
+                    <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" href="/about">Read More <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
                 </div>
             </div>
 
