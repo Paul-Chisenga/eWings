@@ -28,16 +28,15 @@
                         <div class="col-sm-6 no-padding-right xs-padding-15px-right">
                             <ul class="footer-list xs-margin-5px-bottom">
                                 <li><a href="/about">About Us</a></li>
-                                <li><a href="/departments">Departments</a></li>
+                                <li><a href="/solutions">Solutions</a></li>
                                 <li><a href="/contact">Contac Us</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-6 no-padding-right xs-padding-15px-right">
                             <ul class="footer-list">
-                                <li><a href="/department/aviation">Aviation</a></li>
-                                <li><a href="/department/engineering">Engineering</a></li>
-                                <li><a href="/department/medical">Medical</a></li>
-                                <li><a href="/department/law">Law</a></li>
+                                <li><a href="/solutions/unmannedAircraftSystems">Unmanned Aircraft Systems</a></li>
+                                <li><a href="/solutions/aviationSafety">Aviation Safety</a></li>
+                                <li><a href="/solutions/aviationBusiness">Aviation Business</a></li>
                             </ul>
                         </div>
                     </div>

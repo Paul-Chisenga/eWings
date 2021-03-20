@@ -15,14 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.home');
 Route::view('/about', 'pages.about');
-Route::prefix('/department')->group(function () {
-Route::view('/aviation', 'pages.aviation');
-Route::view('/aviation', 'pages.aviation');
-Route::view('/engineering', 'pages.engineering');
-Route::view('/medical', 'pages.medical');
-Route::view('/law', 'pages.law');
+Route::prefix('/solutions')->group(function () {
+Route::view('/unmannedAircraftSystems', 'pages.unmannedAircraftSystems');
+Route::view('/aviationSafety', 'pages.aviationSafety');
+Route::view('/aviationBusiness', 'pages.aviationBusiness');
 });
 Route::view('/events', 'pages.events');
-Route::view('/departments', 'pages.departments');
+Route::view('/solutions', 'pages.solutions');
 Route::view('/contact', 'pages.contact');
 
