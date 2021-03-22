@@ -1,6 +1,6 @@
 /* ===================================
     Links In Li
 ====================================== */
-.solution-li a {
-  color: yellowgreen;
+.custom-link a {
+  color: yellowgreen !important;
 }

@@ -1,83 +1,97 @@
 @extends('layouts.index')
 
 @section('content')
-<x-pagetitle name="Contact" imgUrl="img/ewings-05.png" />
-<!-- start contact section -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 xs-margin-25px-bottom">
-                <div class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
-                    <i class="ti-location-pin font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
-                    <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">Visit Our Office</h4>
-                    <p class="no-margin-bottom">202 Mainstreet, 12th Floor
-                        <br> Nairobi, Karen.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 xs-margin-25px-bottom">
-                <div class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
-                    <i class="ti-mobile font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
-                    <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">Let's Talk</h4>
-                    <p class="no-margin-bottom">Phone: (+254) 123 456 789
-                        <br> Fax: 123 456 789</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
-                    <i class="ti-email font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
-                    <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">E-mail Us</h4>
-                    <p class="no-margin-bottom"><a href="javascript:void(0)">info@yourdomain.com</a>
-                        <br> <a href="javascript:void(0)">hr@yourdomain.com</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end contact section -->
-
-<!-- start contact form section -->
-<section class="no-padding-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 center-col margin-50px-bottom sm-margin-30px-bottom text-center">
-                <h3 class="font-weight-500 font-size32 md-font-size28 sm-font-size26 xs-font-size24 section-title">Send your message</h3>
-                <div class="title-border"><span class="lg"></span><span class="md"></span><span class="sm"></span></div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-8 center-col">
-                <form method="post" action="#!">
-                    <input type="hidden" name="form-type" value="contact">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" name="name" placeholder="Your Name:">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" name="phone" placeholder="Telephone:">
-                        </div>
-                        <div class="col-md-12">
-                            <input type="text" name="email" placeholder="Email:">
-                        </div>
-                        <div class="col-md-12">
-                            <textarea name="message" rows="7" placeholder="Message:"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                            <button type="submit" class="butn">Submit comment <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></button>
-                        </div>
+    <x-navbar isDark />
+    <x-pagetitle name="Contact" imgUrl="img/ewings-05.png" />
+    <!-- start contact section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 xs-margin-25px-bottom">
+                    <div
+                        class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
+                        <i class="ti-location-pin font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
+                        <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">Visit
+                            Our Office</h4>
+                        <p class="no-margin-bottom">202 Mainstreet, 12th Floor
+                            <br> Nairobi, Karen.
+                        </p>
                     </div>
-                </form>
+                </div>
+
+                <div class="col-md-4 xs-margin-25px-bottom">
+                    <div
+                        class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
+                        <i class="ti-mobile font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
+                        <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">Let's
+                            Talk</h4>
+                        <p class="no-margin-bottom">Phone: (+254) 123 456 789
+                            <br> Fax: 123 456 789
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div
+                        class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
+                        <i class="ti-email font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
+                        <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">E-mail
+                            Us</h4>
+                        <p class="no-margin-bottom"><a href="javascript:void(0)">info@yourdomain.com</a>
+                            <br> <a href="javascript:void(0)">hr@yourdomain.com</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- end contact form section -->
+    </section>
+    <!-- end contact section -->
 
-<!-- start map section -->
-<iframe class="map" id="gmap_canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1SuwNJ-HqTWSF2Bmaur7HqmVqZBk&ie=UTF8&hl=en&msa=0&ll=-1.2897330000000091%2C36.80705299999999&spn=0.008581%2C0.010707&z=16&iwloc=0004817447742f770a649&output=embed" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-<!-- end map section -->
+    <!-- start contact form section -->
+    <section class="no-padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center-col margin-50px-bottom sm-margin-30px-bottom text-center">
+                    <h3 class="font-weight-500 font-size32 md-font-size28 sm-font-size26 xs-font-size24 section-title">Send
+                        your message</h3>
+                    <div class="title-border"><span class="lg"></span><span class="md"></span><span class="sm"></span></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 center-col">
+                    <form method="post" action="#!">
+                        <input type="hidden" name="form-type" value="contact">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="name" placeholder="Your Name:">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="phone" placeholder="Telephone:">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="email" placeholder="Email:">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="message" rows="7" placeholder="Message:"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="butn">Submit comment <i
+                                        class="fas fa-long-arrow-alt-right margin-10px-left"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact form section -->
+
+    <!-- start map section -->
+    <iframe class="map" id="gmap_canvas"
+        src="https://www.google.com/maps/d/u/0/embed?mid=1SuwNJ-HqTWSF2Bmaur7HqmVqZBk&ie=UTF8&hl=en&msa=0&ll=-1.2897330000000091%2C36.80705299999999&spn=0.008581%2C0.010707&z=16&iwloc=0004817447742f770a649&output=embed"
+        scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <!-- end map section -->
 
 
 @endsection

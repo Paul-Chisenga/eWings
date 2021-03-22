@@ -1,5 +1,6 @@
 @extends('layouts.index')
 
 @section('content')
-<x-pagetitle name="Aviation Business" imgUrl="img/ewings-05.png" />
+<x-navbar title="AS Programs" />
+<h2>Content Here</h2>
 @endsection

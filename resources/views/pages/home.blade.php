@@ -1,6 +1,7 @@
 @extends('layouts.index')
 
 @section('content')
+    <x-navbar isDark />
     <!-- start slideshow-->
     <div class="container-fluid full-screen">
         <div class="row slider-fade">
@@ -20,7 +21,7 @@
                 <div class="text-center item bg-img" data-overlay-dark="4" data-background="img/ewings-02.png">
                     <div class="display-table height-100 position-relative caption">
                         <div class="display-table-cell vertical-align-middle">
-                            <h1 class="text-white px-5">Welcome to the home of Aviation Training and Consulting </h1>
+                            <h1 class="text-white px-lg-5">Welcome to the home of Aviation Training and Consulting </h1>
                             {{-- <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">
                     Many colleges and universities have designated
                      mottos that represent the culture of that institution
@@ -49,31 +50,31 @@
     </div>
     <!-- end slideshow-->
     <!-- start facility section -->
-    <section class="no-padding-top facility-box facility-wrapper ">
+    <section class="no-padding-top facility-box facility-wrapper mt-1 " style="z-index: 100">
         <div class="container">
             <div class="row facility-block">
                 <div class="col-12">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-theme">
 
-                        <div class="step bg-blue">
-                            <a href="/solutions/unmannedAircraftSystems" class="text-center">
+                        <div class=" mb-1">
+                            <a href="/solutions/unmannedAircraftSystems" class="text-center step bg-pink">
                                 <i class="ti-eraser"></i>
                                 <h4 class="step-title">Unmanned Aircraft Systems</h4>
                             </a>
                         </div>
-                        <div class="step bg-sky">
-                            <a href="/solutions/aviationSafety" class="text-center">
+                        <div class="">
+                            <a href="/solutions/aviationSafety" class="text-center step bg-sky">
                                 <i class="ti-cloud-down"></i>
                                 <h4 class="step-title">Aviation Safety</h4>
                             </a>
                         </div>
-                        <div class="step bg-green">
+                        {{-- <div class="step bg-green">
                             <a href="/solutions/aviationBusiness" class="text-center">
                                 <i class="ti-check-box"></i>
                                 <h4 class="step-title">Aviation Business</h4>
                             </a>
                         </div>
-                        {{-- <div class="step bg-pink">
+                        <div class="step bg-pink">
                             <a href="/solutions/law" class="text-center">
                                 <i class="ti-mouse"></i>
                                 <h4 class="step-title">Law</h4>
@@ -85,19 +86,9 @@
         </div>
     </section>
     <!-- end facility section -->
-    <!-- Start Solutions -->
-    <section class="no-padding-top facility-box facility-wrapper ">
-        <div class="container">
-            <div class="row facility-block">
-                <div class="col-12">
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Solution Section -->
     <!-- start about us section -->
-    <section class="about-section">
+    <section class="about-section pt-0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 col-sm-12 order-2 order-lg-1">

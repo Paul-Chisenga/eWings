@@ -1,6 +1,7 @@
 @extends('layouts.index')
 
 @section('content')
+    <x-navbar isDark />
     <x-pagetitle name="Solutions" imgUrl="img/ewings-05.png" />
     <!-- start event section -->
     <section>
@@ -21,14 +22,17 @@
                     <div class="padding-60px-lr md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
                         <h5
                             class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
-                            <a href="/solutions/unmannedAircraftSystems" class="text-theme-color">Unmanned Aircraft Systems</a></h5>
+                            <a href="/solutions/unmannedAircraftSystems" class="text-theme-color">Unmanned Aircraft
+                                Systems</a>
+                        </h5>
                         <ul class="event-time margin-10px-bottom md-margin-5px-bottom">
                             <li><i class="fas fa-user margin-5px-right"></i> Currently Admitting</li>
                             <li><i class="far fa-calendar-alt margin-10px-right"></i> 2nd March - 2April</li>
                         </ul>
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
                             illum dolore</p>
-                        <a class="butn small margin-10px-top md-no-margin-top" href="/solutions/unmannedAircraftSystems">Read More <i
+                        <a class="butn small margin-10px-top md-no-margin-top"
+                            href="/solutions/unmannedAircraftSystems">Read More <i
                                 class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
                     </div>
                 </div>
@@ -41,7 +45,8 @@
                     <div class="padding-60px-lr md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
                         <h5
                             class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
-                            <a href="/solutions/aviationSafety" class="text-theme-color">Aviation Safety</a></h5>
+                            <a href="/solutions/aviationSafety" class="text-theme-color">Aviation Safety</a>
+                        </h5>
                         <ul class="event-time margin-10px-bottom md-margin-5px-bottom">
                             <li><i class="fas fa-user margin-5px-right"></i> Adminssion</li>
                             <li><i class="fas fa-calendar-alt margin-5px-right"></i> 2nd March - 2April</li>
@@ -79,15 +84,16 @@
                     <div class="padding-60px-lr md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
                         <h5
                             class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
-                            <a href="/solutions/aviationBusiness" class="text-theme-color">Aviation Business</a></h5>
+                            <a href="/solutions/aviationBusiness" class="text-theme-color">Aviation Business</a>
+                        </h5>
                         <ul class="event-time margin-10px-bottom md-margin-5px-bottom">
                             <li><i class="fas fa-user margin-5px-right"></i>Admisiion</li>
                             <li><i class="far fa-calendar-alt margin-10px-right"></i> 2nd March - 2April</li>
                         </ul>
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
                             illum dolore</p>
-                        <a class="butn small margin-10px-top md-no-margin-top" href="/solutions/aviationBusiness">Read More <i
-                                class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
+                        <a class="butn small margin-10px-top md-no-margin-top" href="/solutions/aviationBusiness">Read More
+                            <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
                     </div>
                 </div>
             </div>

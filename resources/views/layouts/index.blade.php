@@ -42,7 +42,7 @@
     <!-- start main-wrapper section -->
     <div class="main-wrapper">
 
-        @include('includes.navbar')
+        {{-- @include('includes.navbar') --}}
 
         @yield('content')
 
