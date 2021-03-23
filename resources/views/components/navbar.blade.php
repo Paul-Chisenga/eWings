@@ -61,12 +61,9 @@
                                 <ul>
                                     <li><a href="/solutions/unmannedAircraftSystems">Unmanned Aircraft Systems</a></li>
                                     <li><a href="/solutions/consulting">Consulting</a></li>
-                                    {{-- <li><a href="/solutions/aviationSafety">Aviation Safety</a></li>
-                                    <li><a href="/solutions/aviationBusiness">Aviation Business</a></li> --}}
+                                    <li><a href="/solutions/training">Training</a></li>
                                 </ul>
                             </li>
-                            {{-- <li><a href="/events">Events</a></li>
-                                <li><a href="/blogs">Blog</a></li> --}}
                             <li><a href="/contact">Contact Us</a></li>
                         </ul>
                         <!-- end menu area -->

@@ -4,24 +4,28 @@
     <x-navbar isDark />
     <!-- start slideshow-->
     <div class="container-fluid full-screen">
-        <div class="row slider-fade">
-            <div class="owl-carousel owl-theme">
-                {{-- <div class="text-center item bg-img" data-overlay-dark="4" data-background="{{asset('img/ewings-08.jpg')}}">
-            <div class="display-table height-100 position-relative caption">
-                <div class="display-table-cell vertical-align-middle">
-                    <h1 class="text-white">Your aviation training &</h1>
-                    <h1 class="text-white">consulting partner</h1>
-                    <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">Many colleges and universities have designated mottos that represent the culture of that institution identify themselves in a few words.</p>
-                    <a href="/about" class="butn theme">
-                        <span class="alt-font">Learn More</span><i class="fas fa-long-arrow-alt-right font-size16 sm-font-size14 margin-10px-left"></i>
-                    </a>
-                </div>
-            </div>
-        </div> --}}
+        <div class="row slider-fade" >
+            <div class="owl-carousel owl-theme" >
+                {{-- <div class="text-center item bg-img" data-overlay-dark="4"
+                    data-background="{{ asset('img/ewings-08.jpg') }}">
+                    <div class="display-table height-100 position-relative caption">
+                        <div class="display-table-cell vertical-align-middle">
+                            <h1 class="text-white">Your aviation training &</h1>
+                            <h1 class="text-white">consulting partner</h1>
+                            <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">
+                                Many colleges and universities have designated mottos that represent the culture of that
+                                institution identify themselves in a few words.</p>
+                            <a href="/about" class="butn theme">
+                                <span class="alt-font">Learn More</span><i
+                                    class="fas fa-long-arrow-alt-right font-size16 sm-font-size14 margin-10px-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> --}}
                 <div class="text-center item bg-img" data-overlay-dark="4" data-background="img/ewings-02.png">
                     <div class="display-table height-100 position-relative caption">
                         <div class="display-table-cell vertical-align-middle">
-                            <h1 class="text-white px-lg-5">Welcome to the home of Aviation Training and Consulting </h1>
+                            <h1 class="text-white px-5">Welcome to the home of Aviation Training and Consulting </h1>
                             {{-- <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">
                     Many colleges and universities have designated
                      mottos that represent the culture of that institution
@@ -34,61 +38,58 @@
                     </div>
                 </div>
                 {{-- <div class="text-center item bg-img" data-overlay-dark="4" data-background="img/ewings-04.jpg">
-                <div class="display-table height-100 position-relative caption">
-                    <div class="display-table-cell vertical-align-middle">
-                        <h1 class="text-white">Achieving Knowledge</h1>
-                        <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">Many colleges and universities have designated mottos that represent the culture of that institution identify themselves in a few words.</p>
-                        <a href="/about" class="butn medium theme">
-                            <span class="alt-font">Learn More</span><i class="fas fa-long-arrow-alt-right font-size16 sm-font-size14 margin-10px-left"></i>
-                        </a>
+                    <div class="display-table height-100 position-relative caption">
+                        <div class="display-table-cell vertical-align-middle">
+                            <h1 class="text-white">Achieving Knowledge</h1>
+                            <p class="text-white margin-40px-bottom md-margin-30px-bottom xs-margin-25px-bottom center-col">
+                                Many colleges and universities have designated mottos that represent the culture of that
+                                institution identify themselves in a few words.</p>
+                            <a href="/about" class="butn medium theme">
+                                <span class="alt-font">Learn More</span><i
+                                    class="fas fa-long-arrow-alt-right font-size16 sm-font-size14 margin-10px-left"></i>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </div> --}}
-
+                </div> --}}
             </div>
         </div>
     </div>
     <!-- end slideshow-->
-    <!-- start facility section -->
-    <section class="no-padding-top facility-box facility-wrapper mt-1 " style="z-index: 100">
+    <!-- Start Solutions -->
+    <section class="no-padding-top facility-box facility-wrapper ">
         <div class="container">
             <div class="row facility-block">
-                <div class="col-12">
-                    <div class="owl-theme">
-
-                        <div class=" mb-1">
-                            <a href="/solutions/unmannedAircraftSystems" class="text-center step bg-pink">
-                                <i class="ti-eraser"></i>
-                                <h4 class="step-title">Unmanned Aircraft Systems</h4>
-                            </a>
-                        </div>
-                        <div class="">
-                            <a href="/solutions/aviationSafety" class="text-center step bg-sky">
-                                <i class="ti-cloud-down"></i>
-                                <h4 class="step-title">Aviation Safety</h4>
-                            </a>
-                        </div>
-                        {{-- <div class="step bg-green">
-                            <a href="/solutions/aviationBusiness" class="text-center">
-                                <i class="ti-check-box"></i>
-                                <h4 class="step-title">Aviation Business</h4>
-                            </a>
-                        </div>
-                        <div class="step bg-pink">
-                            <a href="/solutions/law" class="text-center">
-                                <i class="ti-mouse"></i>
-                                <h4 class="step-title">Law</h4>
-                            </a>
-                        </div> --}}
+                <div class="col-12 col-md-4 mb-1">
+                    <div class="step bg-sky">
+                        <a href="/solutions/aviationSafety" class="text-center">
+                            <i class="ti-cloud-down"></i>
+                            <h4 class="step-title">Unmanned Aircraft Systems</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-1">
+                    <div class="step bg-green">
+                        <a href="/solutions/aviationBusiness" class="text-center">
+                            <i class="ti-check-box"></i>
+                            <h4 class="step-title">Consulting</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-1">
+                    <div class="step bg-pink">
+                        <a href="/solutions/law" class="text-center">
+                            <i class="ti-mouse"></i>
+                            <h4 class="step-title">Training</h4>
+                        </a>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
-    <!-- end facility section -->
-
+    <!-- End Solution Section -->
     <!-- start about us section -->
-    <section class="about-section pt-0">
+    <section class="about-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 col-sm-12 order-2 order-lg-1">

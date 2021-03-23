@@ -4,3 +4,12 @@
 .custom-link a {
     color: yellowgreen !important;
 }
+
+.facility-block {
+    flex-wrap: wrap;
+}
+
+.facility-box {
+    z-index: 2;
+    background-color: transparent;
+}

@@ -38,6 +38,7 @@
                                 <li>SOLUTIONS</li>
                                 <li><a href="/solutions/unmannedAircraftSystems">Unmanned Aircraft Systems</a></li>
                                 <li><a href="/solutions/consulting">Consulting</a></li>
+                                <li><a href="/solutions/training">Training</a></li>
                             </ul>
                         </div>
                     </div>
