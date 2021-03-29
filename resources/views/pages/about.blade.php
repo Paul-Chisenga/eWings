@@ -2,7 +2,7 @@
 
 @section('content')
     <x-navbar isDark />
-    <x-pagetitle name="About" imgUrl="img/ewings-05.png" />
+    <x-pagetitle name="About" imgUrl="img/placeholders/ewings-08.jpg" />
     <!-- start about us section -->
     <section class="about-section">
         <div class="container">

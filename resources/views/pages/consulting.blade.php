@@ -32,7 +32,7 @@
 
                         <div class="margin-30px-bottom sm-margin-30px-bottom">
                             <div class="event-img">
-                                <img src="{{ asset('img/events/eventdetail-1.jpg') }}" alt="Event">
+                                <img src="{{ asset('img/placeholders/ewings-consulting-01.jpg') }}" alt="Event">
                             </div>
                         </div>
 
